@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(/assets/vandor/font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --red: red;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  background: none;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+/* Color Variables for background*/
+/*--------template  navbar section------*/
+/*--------template fullpage-js section------*/
+#fullpage {
+  position: relative;
+}
+
+#fp-nav ul {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 175px;
+}
+
+#fp-nav ul li a {
+  margin: 50px auto;
+  border: 2px solid orange;
+  padding: 1rem;
+  border-radius: 50px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#fp-nav ul li:nth-child(1) a {
+  margin: 0px auto;
+}
+
+#fp-nav ul li a.active span {
+  background: #333;
+  color: orange !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  position: absolute;
+  top: -4px;
+  right: 50px !important;
+  color: #333;
+  font-size: 24px;
+  font-family: arial, helvetica, sans-serif;
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  width: 0;
+  cursor: pointer;
+}
+
+/*--------template navbar section------*/
+.template-navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.template-navbar .template-sidebar-info ul {
+  padding: 0;
+}
+.template-navbar .template-sidebar-info ul li {
+  font-size: 17px;
+  font-weight: normal;
+  margin-right: 2rem;
+}
+.template-navbar .template-sidebar-info ul li i {
+  color: #333;
+  padding: 0.3rem;
+  border-radius: 50px;
+  margin-right: 0.2rem;
+}
+.template-navbar .template-sidebar-info ul li:nth-child(2) {
+  margin-right: 0rem;
+}
+
+.template-navbar .row {
+  border-bottom: 1px solid #333;
+}
+
+.logo a strong {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #333;
+}
+
+.sidebar-controll {
+  margin-top: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/*--------template sidebar section------*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #eee;
+}
+
+.sidenav .tempalte-search .input-group {
+  background: #333;
+}
+
+.sidenav .tempalte-search .input-group input {
+  border-radius: 0px !important;
+  border: none;
+}
+
+.sidenav .tempalte-search .input-group button {
+  border-radius: 0px !important;
+  border: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.template-sidebar .inner {
+  padding: 1rem;
+  background: orange;
+}
+
+.template-sidebar .inner .sidebar-text {
+  font-size: 1.3rem;
+  background: red;
+  width: auto;
+  height: auto;
+  text-transform: capitalize;
+  line-height: 1.8rem;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+
+.template-sidebar .inner .title {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: fit-content;
+  height: auto;
+}
+
+.template-sidebar .inner ul {
+  padding: 0;
+}
+
+.template-sidebar .inner ul li {
+  margin-top: 0.8rem;
+}
+
+.template-sidebar .inner ul li i {
+  margin-right: 0.8rem;
+}
+
+.template-sidebar .inner .template-social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}/*# sourceMappingURL=template.css.map */
